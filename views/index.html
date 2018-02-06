@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Single page web app using Angularjs</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-combobox/1.1.8/js/bootstrap-combobox.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-combobox/1.1.8/css/bootstrap-combobox.min.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
     <script type="text/javascript" src="dashboard.js"></script>
@@ -33,32 +33,32 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <center class="bootstrap-iso">
-                <div class="navbar-collapse collapse" id="navbar-main">
-                    <div class="navbar-form navbar-left .selectContainer .form-control-feedback">
-                        <label class="control-label" for="application" style="color: whitesmoke;">App</label>
-                        <select class="form-control" name="application" id="application">
-                            <option value="default">No application available before query</option>
-                        </select>
-                    </div>
-                    <form class="navbar-form navbar-right" role="search">
-                        <div class="form-group">
-                            <label class="control-label" for="from_date" style="color: whitesmoke;">From</label>
-                            <input class="form-control" id="from_date" name="from_date" placeholder="YYYY-MM-DD" type="text"/>
-                        </div>
-                        <div class="form-group">
-                            <label class="control-label" for="to_date" style="color: whitesmoke;">To</label>
-                            <input class="form-control" id="to_date" name="to_date" placeholder="YYYY-MM-DD" type="text"/>
-                        </div>
-                        <button class="btn btn-primary " name="submit" id="submit" type="submit">Submit</button>
-                    </form>
-
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <center class="bootstrap-iso">
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <div class="navbar-form navbar-left .selectContainer .form-control-feedback">
+                    <label class="control-label" for="application" style="color: whitesmoke;">App</label>
+                    <select class="form-control" name="application" id="application">
+                        <option value="default">No application available before query</option>
+                    </select>
                 </div>
-            </center>
-        </div>
-    </nav>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <label class="control-label" for="from_date" style="color: whitesmoke;">From</label>
+                        <input class="form-control" id="from_date" name="from_date" placeholder="YYYY-MM-DD" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="to_date" style="color: whitesmoke;">To</label>
+                        <input class="form-control" id="to_date" name="to_date" placeholder="YYYY-MM-DD" type="text"/>
+                    </div>
+                    <button class="btn btn-primary " name="submit" id="submit" type="submit">Submit</button>
+                </form>
+
+            </div>
+        </center>
+    </div>
+</nav>
 
 <div class="container-fluid text-center">
     <div class="row content">
@@ -67,7 +67,7 @@
     </div>
 </div>
 <div id="spinner" class="spinner" style="display:none;">
-        <img id="img-spinner" src="spinner.gif" alt="Loading"/>
+    <img id="img-spinner" src="spinner.gif" alt="Loading"/>
 </div>
 
 </body>
