@@ -10,6 +10,6 @@ To run the app :
 
 The app is finally available on : 
 
-    localhost:3000
+    localhost:8080
 
 
