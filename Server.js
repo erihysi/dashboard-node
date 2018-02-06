@@ -9,6 +9,7 @@ var path = __dirname + '/views/';
 var acquisition_api_key = "31I4HHdML8AH30OQCqbuRswzFcvhigvs3f15UQqc6VuOnTNzKYJosB43I5vE2o2SmwNYhh7oCS5X1XUJjhDzlnX9RugHJ";
 var monetization_api_key = "mwNNiwFuJ30GqpuYwQHSW0XQx93E2rIS7NRSfxwLz4XI5Yoo5aSP8wvyibhVO8aYeaVLYsCJcFP9V0uzo95ph66qktQwE";
 
+var port = process.env.PORT || 8080;
 
 router.use(function (req,res,next) {
   console.log("/" + req.method);
@@ -53,8 +54,8 @@ app.use(function(error, req, res, next) {
 });
 
 
-app.listen(3000,function(){
-  console.log("Live at Port 3000");
+app.listen(port,function(){
+  console.log('Our app is running on http://localhost:' + port);
 });
 
 
